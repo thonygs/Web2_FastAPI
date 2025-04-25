@@ -1,6 +1,4 @@
 from fastapi import FastAPI, HTTPException, Depends
-from sqlalchemy import Column, Integer, String, create_engine
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 from db.database import criar_banco, get_db
 from db.models import Item
