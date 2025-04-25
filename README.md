@@ -5,16 +5,6 @@
 python -m venv .venv
 ```
 
-## Instalar FastAPI e Uvicorn
-```bash
-pip install fastapi uvicorn
-```
-
-## Instalar ORM
-```bash
-pip install sqlalchemy
-```
-
 ## Ativar o Ambiente Virtual
 ### Windows
 ```bash
@@ -24,6 +14,16 @@ pip install sqlalchemy
 ### Linux
 ```bash
 source .venv/bin/activate
+```
+
+## Instalar FastAPI e Uvicorn
+```bash
+pip install fastapi uvicorn
+```
+
+## Instalar ORM
+```bash
+pip install sqlalchemy
 ```
 
 ## Executar Código
